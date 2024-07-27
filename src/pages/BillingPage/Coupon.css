@@ -1,0 +1,23 @@
+.coupon-card {
+  width: 200px;
+  height: 130px; /* Adjust the height as needed */
+  background: linear-gradient(to right, rgba(58, 187, 244, 0.42), rgba(195, 219, 0, 0.35));
+  /* background: #ff416c; */
+  /* background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2bbf, #ff416de1); */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+/* Optional: Add hover effect */
+.coupon-card:hover {
+  transform: translateY(-5px);
+}
+.coupon-title {
+  color: rgba(0, 0, 0, 0.844);
+  text-align: center;
+}
