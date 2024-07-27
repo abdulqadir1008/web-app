@@ -1,0 +1,22 @@
+.sidebar{
+    width: 11rem ;
+    background-color: rgb(61, 77, 134);
+}
+.accordion{
+    --bs-accordion-bg: transparent !important;
+    --bs-accordion-border-color:none;
+}
+.accordion-item{
+    border:  none !important;
+}
+.accordion-button{
+    background: transparent !important;
+    padding: 0;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-body{
+    padding: 0;
+    padding-left: 1.2rem;
+}

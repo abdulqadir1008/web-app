@@ -1,0 +1,54 @@
+.header-logo {
+  width: 4.5rem;
+}
+.profile-image {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.dropdown-item-nav {
+  color: aliceblue !important;
+}
+.dropdown-item-nav:hover {
+  background-color: rgba(54, 36, 118, 0.618);
+}
+@media screen and (max-width: 768px) {
+  .navbar-main {
+    padding: 0 !important;
+  }
+}
+/******** FOOTER *********/
+.footer-button {
+  border: none;
+  padding: 0.3rem;
+  background: transparent;
+  color: aliceblue;
+  margin: 0.2rem 0;
+  font-weight: 400;
+}
+.footer-text {
+  color: aliceblue;
+  margin: 1rem 0;
+}
+@media screen and (max-width: 768px) {
+  .mobile-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer {
+    margin-bottom: 3.4rem;
+  }
+  .footer-logo {
+    width: 6rem !important;
+  }
+  .footer-text {
+    color: aliceblue;
+    margin: 0.6rem 0 !important;
+  }
+}
+.footer-button-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.footer-logo {
+  width: 10rem;
+}

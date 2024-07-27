@@ -1,0 +1,6 @@
+export const CAR_LIST = 'CAR_LIST';
+export const SEARCH = 'SEARCH';
+export const LOCATION_VALUES = 'LOCATION_VALUES';
+export const DISCOUNT_COUPON = 'DISCOUNT_COUPON';
+export const TOTAL_AMOUNT = 'TOTAL_AMOUNT';
+export const DATETIME_VALUES = 'DATETIME_VALUES';

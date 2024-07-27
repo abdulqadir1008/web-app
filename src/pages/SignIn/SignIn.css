@@ -1,0 +1,75 @@
+.sign-up-form-box {
+  padding: 2.2rem;
+  font-weight: 500;
+}
+.login-link {
+  color: rgb(255, 153, 51);
+  font-size: 1rem;
+}
+.login-link:hover {
+  color: rgb(60, 185, 139);
+}
+/* .login-text {
+  font-size: 1.4rem;
+  margin: 1.3rem 0 !important;
+} */
+.login-input-box {
+  padding: 0.2rem;
+  /* border: 0.1rem solid #4f4f4f; */
+  border-radius: 0.5rem;
+}
+.welcome-text {
+  color: rgb(30, 22, 114);
+  background-color: rgb(255, 153, 51, 0.1);
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+}
+
+@media screen and (min-width: 980px) {
+  .width-size {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .width-size {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .width-size {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .width-size {
+    width: 65%;
+  }
+}
+
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root 
+{
+  font-size: 0.7rem;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root 
+{
+  font-size: 0.3rem;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root  {
+  height: 80px;
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.3rem;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8px !important;
+} */
+
+.date-box {
+  border-width: 0.001rem;
+  border-radius: 0.3rem;
+  border-color: rgba(152, 152, 152, 0.547);
+  padding: 0.4rem;
+}

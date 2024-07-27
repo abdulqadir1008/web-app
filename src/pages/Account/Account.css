@@ -1,0 +1,200 @@
+/* .customer-profile button {
+  height: 5rem;
+} */
+.profile-left-section {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(255, 153, 51);
+  border-radius: 0 1rem 1rem 0;
+  border: 0.1rem #7b7b7b;
+}
+.profile-right-section {
+  width: 90%;
+}
+/* .profile-left-heading {
+  padding: 0.8rem;
+  margin: 3rem 0;
+  padding-left: 3.5rem;
+  font-weight: 600;
+  color: black;
+} */
+.profile-right-heading {
+  outline: none;
+  font-weight: 600;
+  padding: 1rem;
+  padding-right: 0;
+}
+.profile-left-heading:hover {
+  outline: none;
+  color: white;
+  background-color: rgb(255, 153, 51);
+}
+.profile-left-heading:focus {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(255, 153, 51) !important;
+}
+.profile-right-card {
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  margin-top: 0;
+  padding-top: 0;
+  border: 0.01rem rgb(255, 153, 51);
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(255, 153, 51);
+}
+.profile-normal-text {
+  display: inline-flex;
+  font-weight: 400;
+}
+.inputField {
+  border: none;
+  border-bottom: 1px solid #4f4f4f;
+}
+.profile-logo {
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+.pass-right-heading {
+  font-weight: 600;
+  padding: 1rem;
+  padding-top: 2.1rem;
+  margin-right: 1.5rem;
+}
+.upd-btn {
+  padding: 0.6rem 2.8rem;
+  border-radius: 1.1rem;
+  border: none;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 1.4rem;
+  background-color: rgb(255, 153, 51);
+}
+.EditButton {
+  padding-left: 0.7rem;
+}
+
+@media screen and (max-width: 980px) {
+  .profile-right-section {
+    width: 100%;
+  }
+  .mobile-view-profile {
+    display: block !important;
+    border: none;
+  }
+  .mobile-view-profile-navbar {
+    border: none !important;
+    box-shadow: none;
+    display: flex !important;
+    margin: 2rem 1rem !important;
+    flex-direction: row;
+    flex-wrap: wrap !important;
+  }
+  .button-tabs {
+    border: 0.02rem solid #b5b5b5;
+    border-radius: 0.3rem !important;
+    justify-content: center !important;
+    /* width: 30%; */
+    box-shadow: 0.1rem 0.1rem 0.5rem rgb(141, 140, 140);
+  }
+  .kl {
+    margin: 0.2rem !important;
+  }
+  .button-align {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .lk {
+    width: 100%;
+  }
+  .button-align {
+    display: block;
+  }
+  .my-acc-m {
+    margin-top: 3.2rem !important;
+  }
+  .co-m {
+    margin-bottom: 3.2rem !important;
+  }
+}
+/********MY BOOKING PAGE******/
+.red-pricing {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: red;
+}
+.pd {
+  margin-top: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.bookings-img {
+  width: 8rem;
+  height: 5rem;
+  margin-right: 0.7rem;
+}
+.red-price-card {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: red;
+}
+@media screen and (min-width: 650px) {
+  .fixed-balance {
+    top: 8rem;
+    right: 3rem;
+    position: fixed;
+  }
+}
+.drop-button {
+  margin-top: 1rem;
+}
+.space {
+  margin: 0 0.3rem;
+}
+
+@media screen and (min-width: 650px) {
+  .accordianWidth {
+    width: 32%;
+  }
+  .marginTop {
+    margin-top: 8rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .accordianWidthCarDiv {
+    width: 40%;
+  }
+  .accordianWidthCar {
+    width: 100%;
+    height: 9rem;
+  }
+  .mobile-changes {
+    width: 500px !important;
+  }
+}
+
+nav .active {
+  background-color: rgb(255, 153, 51) !important;
+}
+@media screen and (min-width: 768px) {
+  .d-width-30 {
+    width: 30%;
+  }
+  .d-width-80 {
+    width: 80%;
+  }
+}
+.car-img {
+  width: 6rem;
+}
+.empty-div {
+  height: 1rem;
+}
+.verification-status-img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.7rem;
+}
